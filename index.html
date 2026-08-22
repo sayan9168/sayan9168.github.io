@@ -4,26 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- SEO Meta Tags -->
     <title>Sayan Mahata | Sayan The Researcher | sayan9168</title>
     <meta name="description" content="Official portfolio and research profile of Sayan Mahata (sayan9168), also known as Sayan The Researcher.">
-    <meta name="keywords" content="Sayan Mahata, sayan9168, Sayan The Researcher, Researcher, GitHub sayan9168">
+    <meta name="keywords" content="Sayan Mahata, sayan9168, Sayan The Researcher, Researcher, GitHub">
     <meta name="author" content="Sayan Mahata">
     
-    <!-- Open Graph for Social Media Sharing -->
     <meta property="og:title" content="Sayan Mahata | Sayan The Researcher">
     <meta property="og:description" content="Official portfolio and research profile of Sayan Mahata.">
     <meta property="og:image" content="https://sayan9168.github.io/sayan-mahata-sayan9168.jpg">
     <meta property="og:url" content="https://sayan9168.github.io">
     
-    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@notfound_sayan">
     <meta name="twitter:title" content="Sayan Mahata | Sayan The Researcher">
-    <meta name="twitter:description" content="Official research profile of Sayan Mahata (sayan9168).">
     <meta name="twitter:image" content="https://sayan9168.github.io/sayan-mahata-sayan9168.jpg">
 
-    <!-- Person Schema for Google Knowledge Panel & Image SEO -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -43,101 +38,302 @@
     }
     </script>
 
-    <style>
-        :root {
-            --bg-color: #0f172a;
-            --text-color: #f8fafc;
-            --accent: #38bdf8;
-            --card-bg: #1e293b;
-        }
-        body {
-            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .container {
-            text-align: center;
-            max-width: 800px;
-            padding: 2rem;
-        }
-        .profile-pic {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 4px solid var(--accent);
-            margin-bottom: 1.5rem;
-            box-shadow: 0 10px 30px rgba(56, 189, 248, 0.2);
-        }
-        h1 {
-            font-size: 2.5rem;
-            margin: 0.5rem 0;
-            color: var(--accent);
-        }
-        h2 {
-            font-size: 1.2rem;
-            font-weight: 400;
-            color: #94a3b8;
-            margin-top: 0;
-            margin-bottom: 2rem;
-        }
-        .bio {
-            font-size: 1.1rem;
-            line-height: 1.6;
-            color: #cbd5e1;
-            margin-bottom: 2rem;
-        }
-        .links {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 1rem;
-        }
-        .link-btn {
-            text-decoration: none;
-            background-color: var(--card-bg);
-            color: var(--text-color);
-            padding: 0.8rem 1.5rem;
-            border-radius: 8px;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            border: 1px solid #334155;
-        }
-        .link-btn:hover {
-            background-color: var(--accent);
-            color: var(--bg-color);
-            transform: translateY(-3px);
-        }
-    </style>
+    <!-- External Libraries -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<div class="container">
-    <!-- ছবিটি এখানে বসাতে হবে -->
-    <img src="sayan-mahata-sayan9168.jpg" alt="Sayan Mahata (sayan9168) - Sayan The Researcher" class="profile-pic">
-    
-    <h1>Sayan Mahata</h1>
-    <h2>Sayan The Researcher | @sayan9168</h2>
-    
-    <p class="bio">
-        Welcome to my official digital footprint. I am a dedicated researcher and technology enthusiast. 
-        Here you will find all my verified professional and social connections.
-    </p>
+    <!-- 3D Background Canvas -->
+    <canvas id="bg"></canvas>
 
-    <div class="links">
-        <a href="mailto:sm6881164@gmail.com" class="link-btn">📧 Email</a>
-        <a href="https://github.com/sayan9168" target="_blank" class="link-btn">💻 GitHub</a>
-        <a href="https://www.linkedin.com/in/sayan-mahata-a8b321391/" target="_blank" class="link-btn">💼 LinkedIn</a>
-        <a href="https://twitter.com/notfound_sayan" target="_blank" class="link-btn">🐦 Twitter / X</a>
-        <a href="https://www.instagram.com/_sayyyyan" target="_blank" class="link-btn">📸 Instagram</a>
-    </div>
-</div>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follow"></div>
 
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">SM<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#connect">Connect</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up" data-aos-duration="1500">
+            <p class="greeting">Hello World, I am</p>
+            <h1 class="glitch" data-text="Sayan Mahata">Sayan Mahata</h1>
+            <div class="typed-wrap">
+                <span class="role">I am a </span>
+                <span class="typed-text"></span><span class="cursor-blink">|</span>
+            </div>
+            <p class="tagline">Exploring the boundaries of knowledge through research & code.</p>
+            <div class="hero-btns">
+                <a href="#connect" class="btn btn-primary">Get In Touch</a>
+                <a href="#research" class="btn btn-ghost">Explore Work</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-grid">
+                <div class="profile-card" data-aos="fade-right" data-aos-duration="1500">
+                    <div class="profile-img-wrap">
+                        <img src="sayan-mahata-sayan9168.jpg" alt="Sayan Mahata - Sayan The Researcher" class="profile-img">
+                        <div class="ring"></div>
+                        <div class="ring ring-2"></div>
+                    </div>
+                </div>
+                <div class="about-text" data-aos="fade-left" data-aos-duration="1500">
+                    <h3>Sayan The Researcher</h3>
+                    <p>I am a dedicated researcher and technology enthusiast known online as <strong>sayan9168</strong>. My journey revolves around exploring cutting-edge concepts, building digital solutions, and contributing to the global research community.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h4 class="counter" data-target="50">0</h4>
+                            <p>Projects</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4 class="counter" data-target="25">0</h4>
+                            <p>Research Topics</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4 class="counter" data-target="1000">0</h4>
+                            <p>Commits</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Areas -->
+    <section id="research" class="research">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Research Areas</h2>
+            <div class="cards-grid">
+                <div class="tilt-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card-icon"><i class="fas fa-brain"></i></div>
+                    <h3>AI & Machine Learning</h3>
+                    <p>Deep research into neural networks and intelligent systems.</p>
+                </div>
+                <div class="tilt-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="card-icon"><i class="fas fa-code"></i></div>
+                    <h3>Software Engineering</h3>
+                    <p>Building scalable systems and clean architecture patterns.</p>
+                </div>
+                <div class="tilt-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="card-icon"><i class="fas fa-database"></i></div>
+                    <h3>Data Science</h3>
+                    <p>Extracting insights from complex datasets and analytics.</p>
+                </div>
+                <div class="tilt-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="card-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Cybersecurity</h3>
+                    <p>Exploring secure protocols and digital defense mechanisms.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Connect Section -->
+    <section id="connect" class="connect">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Let's Connect</h2>
+            <div class="social-grid">
+                <a href="mailto:sm6881164@gmail.com" class="social-card" data-aos="flip-left">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                    <small>sm6881164@gmail.com</small>
+                </a>
+                <a href="https://github.com/sayan9168" target="_blank" class="social-card" data-aos="flip-left" data-aos-delay="100">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                    <small>@sayan9168</small>
+                </a>
+                <a href="https://www.linkedin.com/in/sayan-mahata-a8b321391/" target="_blank" class="social-card" data-aos="flip-left" data-aos-delay="200">
+                    <i class="fab fa-linkedin-in"></i>
+                    <span>LinkedIn</span>
+                    <small>Professional Profile</small>
+                </a>
+                <a href="https://twitter.com/notfound_sayan" target="_blank" class="social-card" data-aos="flip-left" data-aos-delay="300">
+                    <i class="fab fa-twitter"></i>
+                    <span>Twitter / X</span>
+                    <small>@notfound_sayan</small>
+                </a>
+                <a href="https://www.instagram.com/_sayyyyan" target="_blank" class="social-card" data-aos="flip-left" data-aos-delay="400">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                    <small>@_sayyyyan</small>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Sayan Mahata | Sayan The Researcher | sayan9168. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+
+    <script>
+        // AOS Init
+        AOS.init({ once: true });
+
+        // 3D Particle Network Background
+        const scene = new THREE.Scene();
+        const camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHeight, 0.1, 1000);
+        const renderer = new THREE.WebGLRenderer({ canvas: document.querySelector('#bg'), alpha: true, antialias: true });
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        renderer.setPixelRatio(window.devicePixelRatio);
+        camera.position.z = 30;
+
+        const particlesCount = 800;
+        const positions = new Float32Array(particlesCount * 3);
+        for (let i = 0; i < particlesCount * 3; i++) {
+            positions[i] = (Math.random() - 0.5) * 100;
+        }
+        const geometry = new THREE.BufferGeometry();
+        geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+        const material = new THREE.PointsMaterial({
+            color: 0x38bdf8,
+            size: 0.2,
+            transparent: true,
+            opacity: 0.8
+        });
+        const particles = new THREE.Points(geometry, material);
+        scene.add(particles);
+
+        // Mouse movement parallax
+        let mouseX = 0, mouseY = 0;
+        document.addEventListener('mousemove', (e) => {
+            mouseX = (e.clientX / window.innerWidth) * 2 - 1;
+            mouseY = -(e.clientY / window.innerHeight) * 2 + 1;
+        });
+
+        function animate() {
+            requestAnimationFrame(animate);
+            particles.rotation.x += 0.0005;
+            particles.rotation.y += 0.0008;
+            camera.position.x += (mouseX * 2 - camera.position.x) * 0.05;
+            camera.position.y += (mouseY * 2 - camera.position.y) * 0.05;
+            camera.lookAt(scene.position);
+            renderer.render(scene, camera);
+        }
+        animate();
+
+        window.addEventListener('resize', () => {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        });
+
+        // Typing Effect
+        const roles = ["Researcher.", "Developer.", "Problem Solver.", "Innovator.", "Thinker."];
+        const typedEl = document.querySelector('.typed-text');
+        let roleIndex = 0, charIndex = 0, isDeleting = false;
+        function type() {
+            const current = roles[roleIndex];
+            if (isDeleting) {
+                typedEl.textContent = current.substring(0, charIndex--);
+            } else {
+                typedEl.textContent = current.substring(0, charIndex++);
+            }
+            let speed = isDeleting ? 50 : 120;
+            if (!isDeleting && charIndex === current.length + 1) {
+                speed = 1800; isDeleting = true;
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                roleIndex = (roleIndex + 1) % roles.length;
+                speed = 400;
+            }
+            setTimeout(type, speed);
+        }
+        type();
+
+        // Counter Animation
+        const counters = document.querySelectorAll('.counter');
+        const runCounters = () => {
+            counters.forEach(counter => {
+                const target = +counter.dataset.target;
+                let count = 0;
+                const inc = target / 80;
+                const update = () => {
+                    count += inc;
+                    if (count < target) {
+                        counter.textContent = Math.ceil(count);
+                        requestAnimationFrame(update);
+                    } else {
+                        counter.textContent = target + (target >= 1000 ? '+' : '');
+                    }
+                };
+                update();
+            });
+        };
+        const aboutObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    runCounters();
+                    aboutObserver.disconnect();
+                }
+            });
+        });
+        aboutObserver.observe(document.querySelector('#about'));
+
+        // Tilt Cards
+        VanillaTilt.init(document.querySelectorAll('.tilt-card'), {
+            max: 15, speed: 400, glare: true, "max-glare": 0.3
+        });
+
+        // Custom Cursor
+        const cursor = document.querySelector('.cursor');
+        const cursorFollow = document.querySelector('.cursor-follow');
+        document.addEventListener('mousemove', (e) => {
+            cursor.style.left = e.clientX + 'px';
+            cursor.style.top = e.clientY + 'px';
+            setTimeout(() => {
+                cursorFollow.style.left = e.clientX + 'px';
+                cursorFollow.style.top = e.clientY + 'px';
+            }, 50);
+        });
+
+        document.querySelectorAll('a, button, .tilt-card').forEach(el => {
+            el.addEventListener('mouseenter', () => {
+                cursor.classList.add('hover');
+                cursorFollow.classList.add('hover');
+            });
+            el.addEventListener('mouseleave', () => {
+                cursor.classList.remove('hover');
+                cursorFollow.classList.remove('hover');
+            });
+        });
+
+        // Smooth Scroll
+        document.querySelectorAll('a[href^="#"]').forEach(a => {
+            a.addEventListener('click', (e) => {
+                e.preventDefault();
+                const target = document.querySelector(a.getAttribute('href'));
+                if (target) target.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
 </body>
-  </html>
+</html>
