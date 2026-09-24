@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-   <url>
-      <loc>https://https://sayan9168-github-io.sm6881164.workers.dev//</loc>
-      <lastmod>2026-08-31</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>1.00</priority>
-      <image:image>
-         <image:loc>https://https://sayan9168-github-io.sm6881164.workers.dev//sayan-mahata-sayan9168.jpg</image:loc>
-         <image:title>Sayan Mahata - Sayan The Researcher (sayan9168)</image:title>
-      </image:image>
-   </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://sayan9168.github.io/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
 </urlset>
