@@ -5,21 +5,29 @@
 const SITE_DATA = {
 
     // Typing animation এ যে রোলগুলো দেখাবে
-    roles: ["Researcher.", "Developer.", "Problem Solver.", "Innovator.", "Thinker."],
+    roles: [
+        "Founder of Sayanox.",
+        "Sayanox Creator.",
+        "System Architect.",
+        "Security Researcher.",
+        "Language Designer.",
+        "Researcher.",
+        "Developer."
+    ],
 
     // Testimonial কোটগুলো (প্রতি ৫ সেকেন্ডে বদলাবে)
     testimonials: [
         {
-            text: "Sayan's research mindset and dedication are truly inspiring.",
-            author: "— A Colleague"
+            text: "Sayan is the Founder of Sayanox — building original languages and security tools from the ground up.",
+            author: "— Tech Community"
         },
         {
             text: "A problem solver who never gives up until it works perfectly.",
             author: "— A Friend"
         },
         {
-            text: "Innovative ideas combined with clean, precise execution.",
-            author: "— A Mentor"
+            text: "Innovative ideas combined with clean, precise execution. Creator of the Sayanox programming language.",
+            author: "— Open Source"
         }
     ],
 
