@@ -3,7 +3,7 @@
 **Official website and photo of Sayan Mahata**  
 Also known as **Sayan The Researcher** · GitHub: **sayan9168** · Founder of **Sayanox Private Limited**
 
-![Sayan Mahata - Sayan The Researcher](https://sayan9168.github.io/sayan-mahata-sayan9168.jpg)
+![Sayan Mahata - Sayan The Researcher](https://sayan9168-github-io.sm6881164.workers.dev/sayan-mahata-sayan9168.jpg)
 
 ## Who is Sayan Mahata?
 
@@ -16,11 +16,11 @@ He is the **Founder of Sayanox** — creator of the original **Sayanox programmi
 
 **Sayan The Researcher** is the professional online identity of **Sayan Mahata**.  
 Under this name he publishes research-oriented software, security frameworks and the Sayanox platform.  
-Official portfolio + photo: **https://sayan9168.github.io**
+Official portfolio + photo: **https://sayan9168-github-io.sm6881164.workers.dev/**
 
 ## Live Site
 
-**https://sayan9168.github.io**
+**https://sayan9168-github-io.sm6881164.workers.dev/**
 
 ## Major Projects by Sayan Mahata
 
@@ -41,6 +41,7 @@ Full list: [github.com/sayan9168](https://github.com/sayan9168?tab=repositories)
 
 ## Contact Sayan Mahata
 
+- Website: [sayan9168-github-io.sm6881164.workers.dev](https://sayan9168-github-io.sm6881164.workers.dev/)
 - GitHub: [sayan9168](https://github.com/sayan9168)
 - LinkedIn: [Sayan Mahata](https://www.linkedin.com/in/sayan-mahata-a8b321391)
 - X/Twitter: [@notfound_sayan](https://twitter.com/notfound_sayan)
@@ -50,4 +51,5 @@ Full list: [github.com/sayan9168](https://github.com/sayan9168?tab=repositories)
 ---
 
 This repository is the **official personal brand site** of **Sayan Mahata** (Sayan The Researcher), Founder of Sayanox.  
-Search terms this page targets: `Sayan Mahata`, `Sayan The Researcher`, `sayan9168`, `Sayanox Founder`.
+Live URL: **https://sayan9168-github-io.sm6881164.workers.dev/**  
+Search terms: `Sayan Mahata`, `Sayan The Researcher`, `sayan9168`, `Sayanox Founder`.
