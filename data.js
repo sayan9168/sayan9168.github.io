@@ -1,39 +1,35 @@
 /* ============================================
-   SITE DATA - সব তথ্য এখানে সহজে পরিবর্তন করুন
+   SITE DATA - SEO optimized for Sayan Mahata
    ============================================ */
 
 const SITE_DATA = {
 
-    // Typing animation এ যে রোলগুলো দেখাবে
     roles: [
+        "Sayan The Researcher.",
         "Founder of Sayanox.",
         "Sayanox Creator.",
         "System Architect.",
         "Security Researcher.",
         "Language Designer.",
-        "Researcher.",
-        "Developer."
+        "Open Source Builder."
     ],
 
-    // Testimonial কোটগুলো (প্রতি ৫ সেকেন্ডে বদলাবে)
     testimonials: [
         {
-            text: "Sayan is the Founder of Sayanox — building original languages and security tools from the ground up.",
+            text: "Sayan Mahata is the Founder of Sayanox — building original languages and security tools from the ground up.",
             author: "— Tech Community"
         },
         {
-            text: "A problem solver who never gives up until it works perfectly.",
-            author: "— A Friend"
+            text: "Sayan The Researcher never gives up until it works perfectly. Creator of the Sayanox programming language.",
+            author: "— Open Source Community"
         },
         {
-            text: "Innovative ideas combined with clean, precise execution. Creator of the Sayanox programming language.",
-            author: "— Open Source"
+            text: "Innovative ideas combined with clean execution. Sayan Mahata (sayan9168) is building the Sayanox ecosystem.",
+            author: "— Developers"
         }
     ],
 
-    // কনফেটির রং
     confettiColors: ["#38bdf8", "#a855f7", "#f472b6", "#facc15", "#34d399"],
 
-    // যোগাযোগের ইমেইল
     contactEmail: "sm6881164@gmail.com"
 };
