@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sayan9168-github-io.sm6881164.workers.dev//sitemap.xml
+Sitemap: https://sayan9168-github-io.sm6881164.workers.dev/sitemap.xml
