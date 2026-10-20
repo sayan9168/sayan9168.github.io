@@ -9,18 +9,29 @@
     <image:image>
       <image:loc>https://sayan9168.github.io/sayan-mahata-sayan9168.jpg</image:loc>
       <image:title>Sayan Mahata - Official Photo | Sayan The Researcher</image:title>
-      <image:caption>Official photo of Sayan Mahata, also known as Sayan The Researcher and Founder of Sayanox from Medinipur, West Bengal</image:caption>
+      <image:caption>Official photo of Sayan Mahata, also known as Sayan The Researcher and Founder of Sayanox from Medinipur, West Bengal, India</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://sayan9168.github.io/photo.html</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.95</priority>
     <image:image>
       <image:loc>https://sayan9168.github.io/sayan-mahata-sayan9168.jpg</image:loc>
       <image:title>Sayan Mahata Official Profile Photo</image:title>
       <image:caption>Official profile photo of Sayan Mahata from Medinipur, West Bengal, India</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sayan9168-github-io.sm6881164.workers.dev/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://sayan9168-github-io.sm6881164.workers.dev/sayan-mahata-sayan9168.jpg</image:loc>
+      <image:title>Sayan Mahata - Sayan The Researcher</image:title>
+      <image:caption>Official photo of Sayan Mahata</image:caption>
     </image:image>
   </url>
 </urlset>
