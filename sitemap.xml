@@ -4,7 +4,7 @@
   <url>
     <loc>https://sayan9168.github.io/</loc>
     <lastmod>2026-10-23</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://sayan9168.github.io/sayan-mahata-sayan9168.jpg</image:loc>
@@ -15,12 +15,23 @@
   <url>
     <loc>https://sayan9168.github.io/photo.html</loc>
     <lastmod>2026-10-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.98</priority>
+    <changefreq>daily</changefreq>
+    <priority>0.99</priority>
     <image:image>
       <image:loc>https://sayan9168.github.io/sayan-mahata-sayan9168.jpg</image:loc>
-      <image:title>Sayan Mahata Official Profile Photo</image:title>
+      <image:title>Sayan Mahata Official Profile Photo 2026</image:title>
       <image:caption>High quality official profile photo of Sayan Mahata (Sayan The Researcher, sayan9168) from Medinipur, West Bengal, India</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sayan9168.github.io/who-is-sayan-mahata.html</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://sayan9168.github.io/sayan-mahata-sayan9168.jpg</image:loc>
+      <image:title>Who is Sayan Mahata - Official Bio Photo</image:title>
+      <image:caption>Official photo used on the Who is Sayan Mahata page</image:caption>
     </image:image>
   </url>
   <url>
